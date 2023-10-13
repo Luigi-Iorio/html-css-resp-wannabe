@@ -128,6 +128,13 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
+/* da 0 a 1160px */
+@media screen and (max-width: 1160px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
 /* da 0 a 768px */
 @media screen and (max-width: 768px) {
   .container {
